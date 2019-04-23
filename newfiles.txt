@@ -1,6 +1,5 @@
 test naresh
 
-
 git process
 branching
 merging
