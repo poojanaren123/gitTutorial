@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <title>fontstyle practice</title>
+    <link rel="stylesheet" type="text/css"  href="css/font.css" />
+</head>
+<body>
+    <p class="one">Gulp is a task runner that uses Node.js as a platform.
+            Gulp builds system automated tasks like CSS and HTML minification, concatenating library files, and compiling the SASS files.
+            It purely uses the JavaScript code and helps to run front-end tasks and large-scale web applications.</p>
+    <p class="two">
+            Gulp is a task runner that uses Node.js as a platform.
+            Gulp builds system automated tasks like CSS and HTML minification, concatenating library files, and compiling the SASS files.
+            It purely uses the JavaScript code and helps to run front-end tasks and large-scale web applications.
+    </p>
+    <p class="three">
+            Gulp is a task runner that uses Node.js as a platform.
+            Gulp builds system automated tasks like CSS and HTML minification, concatenating library files, and compiling the SASS files.
+            It purely uses the JavaScript code and helps to run front-end tasks and large-scale web applications.
+    </p>
+    <p class="four">
+            Gulp is a task runner that uses Node.js as a platform.
+            Gulp builds system automated tasks like CSS and HTML minification, concatenating library files, and compiling the SASS files.
+            It purely uses the JavaScript code and helps to run front-end tasks and large-scale web applications.
+    </p>
+</body>
+******css*******
+html{
+    font-size: 30px;
+}
+.one{
+    font-size: 25px;
+    border:5px black solid;
+    padding: 20px;
+    margin-left: 20px;
+
+}
+.two{
+    font-size: 1rem;
+    border:0.5rem solid black;
+    padding: 0.5rem;
+    margin-left: 0.2rem;
+    border-inline-start-width: 2rem;
+    border-block-end-width: 2rem;
+    border-bottom-left-radius: 2rem;
+    
+}
+.three{
+    font-size: 1.5em;
+    border:1em solid rgb(105, 237, 100);
+    border-bottom-left-radius: 2em;
+    padding: 2em;
+    margin-block-start: 5em;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+    
+}
+.four{
+    font-size: 10vh;
+    border:10vh solid rgb(105, 237, 100);
+    border-bottom-left-radius: 2em;
+    padding: 15vh;
+    margin-block-start: 5vh;
+    margin-right: 15vh;
+    margin-left: 020vh;
+    
+}
