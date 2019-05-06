@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<head>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" type="text/css"  href="css/flexnfloat.css" /> 
+</head>
+<body>
+    <div class="container" width="100%" height="100%" id="box1">
+        <div class="main">
+                <img class="logo" src="vision.svg" >
+                <div class="row">
+                        <div class="Rectangle">
+                                <p class="hello">
+                                        <h2 class="hi"> Hello <br>pooja narendra</h2>
+                                        <h6 class="logout">Log Out ></h6>
+                                        <h6 class="text"> <img src="icon-myorder.svg" width="10px" height="10px"> &nbsp; MY ORDERS(4)</h6>
+                                        <h6 class="text"> <img src="icon-manage.svg" width="10px" height="10px"> &nbsp;MANAGE REMINDERS AND REORDERS</h6>
+                                        <h6 class="text"> <img src="icon-home.svg" width="10px" height="10px"> &nbsp;ADDRESS BOOK</h6>
+                                        <h6 class="text"> <img src="icon-payment.svg" width="10px" height="10px"> &nbsp;PAYMENT DETAILS</h6>
+                                        <h6 class="text"> <img src="icon-profile.svg" width="10px" height="10px"> &nbsp;YOUR DETAILS</h6>
+                                        <h6 class="text"> <img src="icon-store-credit.svg" width="10px" height="10px"> &nbsp;STORE CEDITS</h6>
+                                        <h6 class="text"> <img src="icon-refer.svg" width="10px" height="10px"> &nbsp;REFER A FRIEND</h6>
+                                        <h6 class="text"> <img src="icon-return.svg" width="10px" height="10px"> &nbsp;RETURNS AND REFUNDS</h6>
+                                        <h6 class="text"> <img src="icon-discuss.svg" width="10px" height="10px"> &nbsp;PRODUCT REVIWES</h6>
+                                </p>
+                            </div>
+                        <div class="rectangle2" style="display:inline-block">
+                                <div class="inside">
+                                        <img src="icon-profile.svg">
+                                        <h1 >  Your Details  </h1>
+                                        <h5>showing your deatils</h5>
+                                </div>
+                                <div class="inside2">
+                                    <h3>ACCOUNT DETAILS</h3><br>
+                                   <p>First Name<br>
+                                        <b>Pooja</b></p><br>
+                                    <p>Last Name<br>
+                                        <b> narendra</b></p><br>
+                                    <h4>email<br>
+                                   pooja.narendra@abc.com</h4><br>
+                                   <h5 style="color:blue">edit account details ></h5>
+                                   <h5 style="color:blue">change password ></h5>
+                                </div>
+                                <div class="inside3">
+                                        <h3>Account Preferences</h3>
+                                        <input type="checkbox" style="color:blue"><b>I want to recieve vision direct promotion emails</b>
+                                        <p style="color:darkgrey">By registering you will receive exclusive offers. If you want to change your reminders please select from your manage reminders section.</p>
+                                        <p style="color:dodgerblue" > Forgot My Account ><img src="icon-arrow-right.svg" width="10px" height="10px" style="color:dodgerblue"> </p>
+
+                                </div>
+                                <div class="inside4">
+                                        <h3>CONTENT PREFERENCES</h3>
+                                        <h4>please tell us what you prefer</h4>             
+                                      
+                                                <div class="switches">
+                                                        <h4 class="texts">Contact Lenses &nbsp;&nbsp;</h4>
+                                                        <label class="switch">
+                                                                <input type="checkbox" checked>
+                                                                        <span class="slider round"></span> 
+                                                        </label> <br><br>
+                                                </div>
+                                                <div class="switches">
+                                                                <h4 class="texts">Glasses&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4><label class="switch">
+                                                                                <input type="checkbox" checked>
+                                                                                <span class="slider round"></span>
+                                                                                </label><br><br>
+                                                </div>
+                                                <div class="switches">
+                                                                <h4 class="texts"> Sun Glasses</h4> <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                        </label><br><br>
+                                        </div>
+                                        <div class="switches">
+                                                        <h4 class="texts"> New Products</h4> <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                        </label><br><br>
+                                        </div>
+                                        <div class="switches">
+                                                        <h4 class="texts"> Colour Contact</h4> <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                        </label><br> <br>
+                                        </div>
+                                        <div class="switches">
+                                                        <h4 class="texts">Eye Care & Help</h4><label class="switch">
+                                         <input type="checkbox" checked>
+                                        <span class="slider round"></span>
+                                        </label>
+                                        </div>
+                                </div>
+                                <div class="inside5">
+                                <h3>Prescription Details</h3>
+                                <input type="radio"> <b>I confirm my prescription details are correct</b>
+                                <p style="color:darkgrey">I agree for my order to be processed via VisionDirect - this is the quickest way to get lenses.</p>
+                                <input type="radio"><b>Check my prescription</b>
+                                <p style="color:darkgrey">By uploading a prescription or contacting my optician - this can delay your order by up to 3 days. </p>
+                                </div>
+                            </div>
+                </div>
+        </div>
+    </div>
+</body>
+
+***************css******************************
+.container {
+    background-color: #f7f7f9;
+}
+
+.logo {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.Rectangle {
+     background-color: #ffffff;
+     flex: 40%;
+     /* height: 500px; */
+     border-radius: 10px;
+     /* flex-direction: row; */
+  }
+.hello {
+      margin-left:50px;
+  }
+ .hi {
+     margin-left: 50px;
+ }
+ .rectangle2 {
+     flex: 60%;
+     margin-left: 5%;
+     /* flex-direction: row; */
+ }
+ .row {
+     display: flex;
+     padding: 5%;
+ }
+ .logout{
+     color:blue;
+     font-family: OpenSans;
+     margin-left:50px; 
+
+ }
+.text {
+    margin-left: 50px;
+}
+.inside {
+    padding: 40px;
+    background-color: white;
+    margin-bottom:20px;
+    width:620px;
+    height:174px;
+    border-radius: 10px;
+    
+}
+.inside2 {
+    padding: 40px;
+    background-color: white;
+    margin-bottom:20px;
+    width:620px;
+    height:414px;
+    border-radius: 10px;
+    
+    
+}
+.inside3 {
+    padding: 40px;
+    background-color: white;
+    margin-bottom:20px;
+    width:620px;
+    height:264px;
+    border-radius: 10px;
+
+    
+    
+}
+
+.inside4 {
+    padding: 40px;
+    background-color: white;
+    margin-bottom:20px;
+    width:620px;
+    height:468px;
+    border-radius: 10px;
+    
+    
+}
+
+.inside5 {
+    padding: 40px;
+    background-color: white;
+    margin-bottom:20px;
+    width:620px;
+    height:322px;
+    border-radius: 10px;
+    
+    
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: auto;
+  }
+  
+  
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: limegreen;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px limegreen;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .texts {
+      margin-right:100px;
+      /* display: flex; */
+  }
+  #box1{
+
+  }
+
+  .switches {
+      display: flex;
+      flex-direction: row;
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 770px) {
+      .main {
+        margin-left: 15%;
+        margin-right: 15%;
+      }
+      .rectangle2 {
+          margin-top: 5%;
+          margin-left: 0%;
+      }
+      /* .row {
+          display: inline;
+      } */
+      .container {
+        background-color: black;
+    }
+  }
